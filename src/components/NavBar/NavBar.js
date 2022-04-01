@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Badge, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { ShoppingBagIcon } from '@heroicons/react/solid'
 
 const NavBar = () => {
     return (
@@ -11,9 +12,10 @@ const NavBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Link className='nav-link' to='/'>Home</Link>
-                        <Link className='nav-link'  to='/shop'>Shop</Link>
-                        <Link className='nav-link'  to='/contacts'>Contacts</Link>
-                        <Link className='nav-link'  to='/about'>About</Link>
+                        <Link className='nav-link' to='/shop'>Shop</Link>
+                        <Link className='nav-link' to='/contacts'>Contacts</Link>
+                        <Link className='nav-link' to='/about'>About</Link>
+                        
 
                     </Nav>
                 </Navbar.Collapse>
